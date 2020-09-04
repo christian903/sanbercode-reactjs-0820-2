@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#buah {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid gray;
+  position: Relative;
+  width   : 70%;
+  Margin : auto;
+  
+}
+
+#buah td, #buah th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#buah tr {background-color: orange;}
+
+#buah tr:hover {background-color: #ddd;}
+
+#buah th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
